@@ -1,0 +1,47 @@
+{
+    "name": "0016api",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev -p 80",
+      "start": "next start -p 80",
+      "dev-https": "node server.js",
+      "build": "next build",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.11.1",
+      "@emotion/styled": "^11.11.0",
+      "@mui/icons-material": "^5.14.14",
+      "@mui/material": "^5.14.14",
+      "@szhsin/react-menu": "^4.1.0",
+      "@tanstack/react-table": "^8.10.7",
+      "@types/node": "20.4.4",
+      "@types/react": "18.2.15",
+      "@types/react-dom": "18.2.7",
+      "@types/react-select": "^5.0.1",
+      "axios": "^1.5.1",
+      "eslint": "8.45.0",
+      "eslint-config-next": "13.2.3",
+      "js-cookie": "^3.0.5",
+      "next": "13.5.6",
+      "nookies": "^2.5.2",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-hook-form": "^7.47.0",
+      "react-select": "^5.7.7",
+      "react-table": "^7.8.0",
+      "react-youtube": "^10.1.0",
+      "typescript": "5.1.6"
+    },
+    "devDependencies": {
+      "@types/axios": "^0.14.0",
+      "@types/react-table": "^7.7.18",
+      "@types/youtube": "^0.0.50",
+      "autoprefixer": "^10.4.16",
+      "eslint-config-prettier": "^9.1.0",
+      "eslint-config-next": "13.2.3",
+      "postcss": "^8.4.32",
+      "tailwindcss": "^3.4.0"
+    }
+  }
